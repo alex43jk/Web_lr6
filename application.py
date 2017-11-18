@@ -49,7 +49,6 @@ def about(request):
   template = env.get_template('about/about.html').render(javascripts=SCRIPTS, styles=STYLES)
   return Response(template)
 
-
 if __name__ == '__main__':
   config = Configurator()
 
